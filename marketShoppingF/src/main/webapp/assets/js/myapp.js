@@ -250,7 +250,7 @@ if ($adminProTable.length)// length of table != null
 							data : 'quantity',
 							mRender : function(data, type, row) {
 								if (data < 1)
-									return '<span style = "color:red"> OUT OF STOCK </span>';
+									return '<span style = "color:red"> AVAILABLE </span>';
 								return data;
 							}
 						},

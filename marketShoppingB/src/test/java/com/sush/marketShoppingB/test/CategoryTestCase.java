@@ -33,36 +33,36 @@ private static AnnotationConfigApplicationContext context;
 	public void testCRUDCategory() {
 		
 		// add operation
-		/*c = new Category();
+		c = new Category();
 		
-		c.setName("Laptop");
-		c.setDescription("This is some description for laptop!");
-		c.setImageurl("CAT_1.png");
+		c.setName("FRUITS");
+		c.setDescription("FRESH FROM AROUND THE WORLD!");
+		c.setImageurl("pomo.jpg");
 		
 		assertEquals("Successfully added a category inside the table!",true,catDAO.add(c));
 		
 		
 		c = new Category();
 		
-		c.setName("Television");
-		c.setDescription("This is some description for television!");
-		c.setImageurl("CAT_2.png");
+		c.setName("VEGETABLES");
+		c.setDescription("ALWAYS ORGANIC!");
+		c.setImageurl("veggies.jpg");
 		
 		assertEquals("Successfully added a category inside the table!",true,catDAO.add(c));
 
 		c = new Category();
 		
-		c.setName("Mobile");
-		c.setDescription("This is some description for mobile!");
-		c.setImageurl("CAT_3.png");
+		c.setName("OILS");
+		c.setDescription("OILS THAT AWAKEN THE SOUL");
+		c.setImageurl("oils.jpg");
 		
-		assertEquals("Successfully added a category inside the table!",true,catDAO.add(c));*/
+		assertEquals("Successfully added a category inside the table!",true,catDAO.add(c));
 
 		
 		// fetching and updating the category
 		//c = catDAO.get(1);
 		
-		//c.setName("Women");
+		//c.setName("deli");
 		
 		//assertEquals("Successfully updated a single category in the table!",true,catDAO.update(c));
 		
@@ -70,11 +70,21 @@ private static AnnotationConfigApplicationContext context;
 		// delete the category
 		//assertEquals("Successfully deleted a single category in the table!",true,catDAO.delete(c));
 		
+	
 		
 		//fetching the list
-		assertEquals("Successfully fetched the list of categories from the table!",3,catDAO.list().size());		
+		//assertEquals("Successfully fetched the list of categories from the table!",3,catDAO.list().size());		
 				
 		
 	}
+	
+	//@Test
+	//public void testDeleteCategory() {
+		
+		//c = catDAO.get(7);		
+		//assertEquals("Successfully deleted a single category in the table!",true,catDAO.delete(c));
+		
+		
+	//}
 
 }
